@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4.2</title>
+  </head>
+  <body></body>
+  <script>
+    const number = prompt("Enter a three-digit number:");
+    const a = number[0];
+    const b = number[1];
+    const c = number[2];
+
+    if (a === b && b === c) {
+      alert("All the numbers are the same");
+      console.log("All the numbers are the same");
+    } else if (a === b || a === c || b === c) {
+      alert("There are identical numbers");
+      console.log("There are identical numbers");
+    } else {
+      alert("All the numbers are different");
+      concole.log("All the numbers are different");
+    }
+  </script>
+</html>
